@@ -1,0 +1,144 @@
+
+.App {
+  padding: 2em;
+  /* width: 500px; */
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.Icon-button {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+}
+.Icon-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+  border: 0;
+}
+
+input[type="checkbox"] {
+  width:16px;
+  height:16px;
+}
+
+.hide {
+  display: none;
+}
+
+
+.Hive-selector-root {
+  position: relative;
+}
+
+.Hive-selector-header {
+  height:50px;
+  background-color:lightblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+  border: 1px solid black;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 0.5em;
+}
+
+.Text-with-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-wrap: nowrap;
+  flex-grow:1;
+  border: 0;
+
+}
+
+.Hive-autocomplete-input {
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  background-color:lightblue;
+  border: 1px solid black;
+  border-radius: 0.5em;
+
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  border:0;
+  background-color:lightblue;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  flex-grow: 1;
+}
+
+.Hive-selector-options-root {
+  background-color:lightblue;
+  border: 1px solid black;
+  position: absolute;
+  left:0;
+  margin-top: 0.5em;
+  width: 100%;
+  z-index: 1;
+  overflow-y: scroll;
+  max-height: 200px;
+  border-radius: 0.5em;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.Hive-selector:hover {
+  border: 1px solid lightblue;
+}
+
+.Hive-selector-option {
+  display: flex;
+  align-items: center;
+  height:25px;
+  background-color:lightblue;
+  padding: 0.5em 1em;
+  column-gap: 1em;
+
+}
+
+
+.Hive-selector-option:hover {
+  background-color: #f1f1f1;
+}
+
+
+
+.Box {
+  border: 1px solid black;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+
+
+.Box.selected {
+  background-color: #f1f1f1;
+}
