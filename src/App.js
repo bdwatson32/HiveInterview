@@ -15,7 +15,7 @@ function App() {
     { value: "1", label: "Option 1", label2: "Grape"},
     { value: "2", label: "Option 2", label2: "Apple" },
     { value: "3", label: "Option 3", label2: "Bread" },
-    { value: "4", label: "Option 4", label2: "Banna" },
+    { value: "4", label: "Option 4", label2: "Banana" },
   ]
 
   const VeryLargeOption = Array(1000).fill(1).map((_, i) => {return { value: i, label: `Option ${i}`}});
