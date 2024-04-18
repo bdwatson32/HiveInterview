@@ -1,6 +1,15 @@
 # HiveInterview
 Hive Interview For Select Component
 
+Please do the following information in order to run the website.
+
+`($) git clone git@github.com:bdwatson32/HiveInterview.git`
+
+`($) npm install`
+
+`($) npm start`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
