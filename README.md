@@ -1,13 +1,18 @@
-# HiveInterview
+# Hive Interview - Select Component
 Hive Interview For Select Component
 
 Please do the following information in order to run the website.
 
-`($) git clone git@github.com:bdwatson32/HiveInterview.git`
+1. Clone this react repository: 
+- `($) git clone git@github.com:bdwatson32/HiveInterview.git`
 
-`($) npm install`
+2. Install npm dependancys:
 
-`($) npm start`
+- `($) npm install`
+
+4. Host the application on localhost:3000:
+   
+- `($) npm start`
 
 
 # Getting Started with Create React App
