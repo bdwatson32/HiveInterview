@@ -81,7 +81,7 @@ function HiveSelector({
             <div className="arrow up"/>
           </div>
         </div>
-        <div className="Hive-selector-options-root">
+        <div className="Hive-selector-options-root hide">
           {multiple && <div className="Hive-selector-option" onClick={() => {selectAllOptions()}}>
             <div className='Icon-button'>
                 <input type='checkbox' checked={allSelected()}/>
