@@ -17,10 +17,9 @@ function HiveSelector({
   const controledOnChange = onChange ?? setSelectedValue;
 
   const toggleOptions = () => {
-    var options = rootRef.current.querySelector(".Hive-selector-options-root");
+    rootRef.current.querySelector(".Hive-selector-options-root").classList.toggle('hide');
     rootRef.current.querySelector('.arrow').classList.toggle('up');
     rootRef.current.querySelector('.arrow').classList.toggle('down');
-    options.classList.toggle('hide');
   }
 
   const handelClickHeader = () => {

@@ -1,8 +1,7 @@
 // App.js
-import logo from './logo.svg';
 import './App.css';
 import HiveSelector from './components/HiveSelector';
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 
 function App() {
 
@@ -22,9 +21,7 @@ function App() {
   return (
     <div className="App">
       <h3>Hive Selector [Single Select]</h3>
-
-      <p>Here a basic single select option!</p>
-
+      <p>Here is a basic single select option!</p>
       <HiveSelector
         multiple={false} 
         placeholder="Please make a selection..."
@@ -44,7 +41,6 @@ function App() {
         <h3>Hive Controled Element</h3>
         <p>Here is a controlled element. The value is controled by the parent component.</p>
         <div style={{display:'flex', gap:'10px'}}>
-
           <div style={{flexShrink: 0, width:400}}>
             <HiveSelector
               value={selectedValue}
@@ -60,10 +56,6 @@ function App() {
           </div>
 
         </div>
-
-
-
-
     </div>
   )
 }
